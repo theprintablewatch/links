@@ -1,11 +1,15 @@
 ---
 const { profile, avatarClass } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const avatarSrc = profile.avatar
+	? `${base}/${profile.avatar.replace(/^\//, '')}`
+	: `${base}/avatar/Avatar.webp`;
 ---
 
 <div class="text-center mb-8 animate-fade-in">
 	<div class="relative inline-block mb-4">
 		<img
-			src={profile.avatar || "avatar/Avatar.webp"}
+			src={avatarSrc}
 			alt={`${profile.name} avatar`}
 			width="40"
 			height="40"

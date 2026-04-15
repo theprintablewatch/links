@@ -1,7 +1,9 @@
 ---
-
-
-const { link,theme,buttonClass, textClass } = Astro.props;
+const { link, buttonClass, textClass } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const iconSrc = link.icon
+	? `${base}/${link.icon.replace(/^\//, '')}`
+	: `${base}/Web.svg`;
 ---
  <li>
 
@@ -13,7 +15,7 @@ const { link,theme,buttonClass, textClass } = Astro.props;
 		<div class="flex items-center gap-3">
 			<div class="p-2">
 				<img
-					src={link.icon || "/Web.svg"}
+					src={iconSrc}
 					alt={`${link.name} icon`}
 					width="30"
 					height="30"
