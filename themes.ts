@@ -41,6 +41,13 @@ export const themes = {
     links_button: 'bg-white/10 border border-white/20 rounded-lg p-4 cursor-pointer hover:bg-pink-600/30 transition-all duration-200 glass group',
     links_text: 'text-white font-medium group-hover:text-pink-200 transition-colors',
   },
+    tpw: {
+    background: 'bg-black tpw-bg text-white min-h-screen font-mono',
+    avatar: 'w-50 h-50 mx-auto bg-trans text-black text-4xl font-bold flex items-center justify-center border-2 border-white shadow-md',
+    links_button: 'bg-black border-2 border-white p-4 cursor-pointer transition-all duration-100 hover:bg-[#f1640e] group-hover:text-center hover:text-black group',
+    links_text: 'text-white font-bold uppercase tracking-wide group-hover:text-black hover:text-center transition-colors duration-100',
+
+  },
   brutalism: {
     background: 'bg-black text-white min-h-screen font-mono',
     avatar: 'w-28 h-28 mx-auto bg-white text-black text-4xl font-bold flex items-center justify-center border-4 border-white shadow-md',

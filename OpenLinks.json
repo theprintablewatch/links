@@ -1,42 +1,61 @@
 {
-	"title": "OpenLinks",
-	"description": "Free JSON-Driven template for Astro.",
-	"url_base": "https://yoursite.com",
-	"theme": "brutalism",
-	"footer": "Made with ❤️ by <a href='https://e10y.dev'>E10Y</a>",
+	"title": "The Printable Watch",
+	"description": "3D Print your next watch",
+	"url_base": "https://theprintablewatch.com",
+	"theme": "tpw",
 	"profile":
 		{
-			"name": "OpenLinks",
-			"avatar": "avatar/Avatar.webp",
-			"description":"OpenSource JSON-driven",
+			"name": "TPW The Printable Watch",
+			"avatar":"/avatar/AvatarTPW.webp",
+			"description":"My Links",
 			"adult": false
 		}
 	,
 	"links": [
 		{
-			"name": "GitHub",
-			"url": "https://github.com/E10YDEV/OpenLinks",
-			"icon": "/icons/GitHub.svg"
-		},
-		{
 			"name": "Website",
-			"url": "https://e10y.dev",
+			"url": "https://theprintablewatch.com",
 			"icon": "/icons/Web.svg"
 		},
 		{
+			"name": "Mail",
+			"url": "mailto:info@theprintablewatch.com",
+			"icon": "/icons/Web.svg"
+		},
+		{
+			"name": "Youtube",
+			"url": "https://www.youtube.com/@ThePrintableWatchCo",
+			"icon": "/icons/YouTube.svg"
+		},
+		{
 			"name": "Instagram",
-			"url": "#",
+			"url": "https://www.instagram.com/theprintablewatch/",
 			"icon": "/icons/Instagram.svg"
 		},
 		{
-			"name": "Twitter",
-			"url": "#",
-			"icon": "/icons/X.svg"
+			"name": "Cults3D",
+			"url": "https://cults3d.com/en/users/ThePrintableWatch/3d-models",
+			"icon": "/icons/cults-seeklogo.svg"
 		},
 		{
-			"name": "Mail",
-			"url": "#",
-			"icon": "/icons/Mail.svg"
+			"name": "Instructables",
+			"url": "https://www.instructables.com/member/ThePrintableWatch/",
+			"icon": "/icons/unity-dark.svg"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://www.reddit.com/r/3dprintedwatches/",
+			"icon": "/icons/reddit.svg"
+		},
+		{
+			"name": "Github",
+			"url": "https://github.com/theprintablewatch/DIGIduino",
+			"icon": "/icons/GitHub.svg"
+		},
+		{
+			"name": "Makerworld",
+			"url": "https://makerworld.com/en/@tpw/",
+			"icon": "/icons/maker-world-dark.svg"
 		}
 	]
 }
